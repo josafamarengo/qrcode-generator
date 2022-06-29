@@ -1,0 +1,11 @@
+header {
+    height: 70px;
+    width: 100vw;
+}
+h1 {
+    color: #fff;
+    font-size: 34px;
+    margin-top: 50px;
+    padding: 0;
+    text-align: center;
+}
