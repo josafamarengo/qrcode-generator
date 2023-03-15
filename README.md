@@ -1,70 +1,227 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!--
+![lighthouse_accessibility](https://user-images.githubusercontent.com/88048411/225086013-43ed6dd1-be6d-4255-bac5-fdbe222758af.svg)
+![lighthouse_best-practices](https://user-images.githubusercontent.com/88048411/225086019-1d6ec29f-5526-45bc-bbf9-1f934ab4aa83.svg)
+![lighthouse_performance](https://user-images.githubusercontent.com/88048411/225086021-d6aa94a4-b502-4558-b0b4-aa0b54cf1e3c.svg)
+![lighthouse_seo](https://user-images.githubusercontent.com/88048411/225086026-ce237e67-5653-41b1-8adb-84ab32dd53d3.svg)
+-->
 
-## Available Scripts
+[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Issues][issues-shield]][issues-url]
+[![License][license-shield]][license-url]
 
-In the project directory, you can run:
 
-### `npm start`
+  <br />
+<div align="center">
+  <img src="https://img.icons8.com/plasticine/100/null/qr-code.png"/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <h3 align="center">QR CODE GENERATOR</h3>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <p align="center">
+    Simplify your life and business - generate a QR code and share information instantly!
+    <br />
+    <br />
+    <a href="https://gerador-de-qrcode.netlify.app/">View Demo</a>
+    ·
+    <a href="https://github.com/josafamarengo/qrcode-generator/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/josafamarengo/qrcode-generator/issues">Request Feature</a>
+  </p>
 
-### `npm test`
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔍 Table of Contents
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
 
-### `npm run build`
+<a name="about-the-project"></a>
+## ℹ️ About The Project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This is a simple web application that generates QR codes from user-provided content. The user can input any text or URL they want to encode, and the app will generate a QR code image that they can then download and use as needed.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Built With
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![React][React]
 
-### `npm run eject`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<a name="getting-started"></a>
+## 🚀 Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To get a local copy up and running follow these simple steps.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [Node.js](https://nodejs.org/en/)
+- [Git](https://git-scm.com/)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the repo
 
-### Code Splitting
+```bash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+git clone https://github.com/josafamarengo/qrcode-generator.git
 
-### Analyzing the Bundle Size
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. Go to project folder
 
-### Making a Progressive Web App
+```bash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+cd qrcode-generator
 
-### Advanced Configuration
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3. Install packages
 
-### Deployment
+```bash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+npm install
 
-### `npm run build` fails to minify
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+OR
+
+```bash
+
+yarn
+
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<a name="roadmap"></a>
+## 🗺️ Roadmap
+
+See the [open issues](https://github.com/josafamarengo/skill-assessments/issues) for a list of proposed features (and known issues).
+
+<a name="contributing"></a>
+## 👥 Contributing
+
+Any contributions you make are **greatly appreciated**. Before you get started, please take a moment to review our [Code of Conduct]() and [Contributing Guidelines]().
+
+### How to contribute
+
+There are several ways to contribute to this project, including:
+- **Reporting issues**: If you encounter any issues or bugs while using the software, please report them in the project's issue tracker on GitHub.
+- **Fixing issues**: If you have identified a bug or issue and would like to fix it, please submit a pull request with your proposed changes.
+- **Adding new features**: If you have an idea for a new feature or enhancement, please open an issue to discuss it with the project maintainers.
+- **Improving documentation**: If you notice any gaps or errors in the project's documentation, please submit a pull request with your proposed changes.
+
+### How to Contribute
+
+<ol>
+  <li>Fork this repository to your own GitHub account.</li>
+  <li>Follow the steps on <a href="#getting-started">Getting Started Section</a>.</li>
+  <li>Create a new branch for your:</li>
+    <ol>
+      <li>Feature <code>git checkout -b feature/your-feature</code></li>
+      <li>Bug fix <code>git checkout -b bugfix/bug</code></li>
+      <li>Docs, improvments, refactoring, optmizing,... <code>git checkout -b requirement/your-requirement</code>.</li>
+    </ol>
+  <!-- <li>Make your changes and ensure they pass the tests by running <code>npm test</code> or <code>yarn test</code>.</li> -->
+  <li>Commit your changes with clear and concise commit messages following the <a href="https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines">Angular commit convention</a></li>
+  <li>Push your changes to your forked repository.</li>
+  <li>Submit a pull request to our repository with a description of your changes.</li>
+</ol>
+
+Please make sure to write clear commit messages and to follow our coding conventions. We appreciate your contributions and will review them as soon as possible!
+
+
+### Issue Tracker
+
+If you encounter any bugs or have feature requests, please open an issue on our [Issue Tracker][issues-url]. Be sure to include a clear and concise description of the issue, any steps needed to reproduce the problem, and any relevant code snippets.
+
+### Code of Conduct
+
+Please review our Code of Conduct before contributing. We expect all contributors to abide by the principles outlined in the document.
+
+### Contributing Guidelines
+
+Please review our Contributing Guidelines before contributing. These guidelines will provide details on how to contribute to the project, the coding standards we follow, and the development process we use.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<a name="license"></a>
+## 📜 License
+
+Distributed under the GNU General Public License v3.0. See `LICENSE` for more information.
+
+<a name="contact"></a>
+## 📧 Contact
+
+[![Linkedin][linkedin-shield]][linkedin-url]
+[![Email][email-shield]][email-url]
+[![Portfolio][site-shield]][site-url]
+
+<a name="acknowledgments"></a>
+## 🙏 Acknowledgments
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<div align="center">
+  <sub>Built with ❤︎ by <a href="https://josafa.com.br">Josafá Marengo</a>
+</div>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+<!-- REPO LINK -->
+[repo-url]: https://github.com/josafamarengo/qrcode-generator
+[issues-url]: https://github.com/josafamarengo/qrcode-generator/issues
+
+[contributors-shield]: https://img.shields.io/github/contributors/josafamarengo/qrcode-generator.svg?style=flat
+[contributors-url]: https://github.com/josafamarengo/qrcode-generator/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/josafamarengo/qrcode-generator.svg?style=flat
+[forks-url]: https://github.com/josafamarengo/qrcode-generator/network/members
+[stars-shield]: https://img.shields.io/github/stars/josafamarengo/qrcode-generator.svg?style=flat
+[stars-url]: https://github.com/josafamarengo/qrcode-generator/stargazers
+[issues-shield]: https://img.shields.io/github/issues/josafamarengo/qrcode-generator.svg?style=flat
+[issues-url]: https://github.com/josafamarengo/qrcode-generator/issues
+[license-shield]: https://img.shields.io/badge/License-GPL%20v3-blue.svg
+[license-url]: https://github.com/josafamarengo/qrcode-generator/blob/main/LICENSE.md
+
+<!-- SOCIAL LINKS -->
+[linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white
+[linkedin-url]: https://linkedin.com/in/josafamarengo
+
+[email-shield]: https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white
+[email-url]: https://josafa.com.br/#contact
+
+[site-shield]: https://img.shields.io/badge/website-000000?style=flat&logo=Google-chrome&logoColor=white
+[site-url]: https://josafa.com.br
+
+
+<!-- LANGUAGES -->
+[AWS]: https://img.shields.io/badge/Amazon_AWS-22272e?style=for-the-badge&logo=amazonaws&logoColor=white
+[Next]: https://img.shields.io/badge/next.js-22272e?style=for-the-badge&logo=nextdotjs&logoColor=white
+[React]: https://img.shields.io/badge/React-22272e?style=for-the-badge&logo=react&logoColor=61DAFB
+[Native]: https://img.shields.io/badge/React_Native-22272e?style=for-the-badge&logo=react&logoColor=61DAFB
+[Typescript]: https://img.shields.io/badge/Typescript-22272e?style=for-the-badge&logo=typescript&logoColor=61DAFB
+[Javascript]: https://img.shields.io/badge/Javascript-22272e?style=for-the-badge&logo=javascript&logoColor=61DAFB
+[Kotlin]: https://img.shields.io/badge/Kotlin-22272e?&style=for-the-badge&logo=kotlin&logoColor=white
+[Angular]: https://img.shields.io/badge/Angular-22272e?style=for-the-badge&logo=angular&logoColor=white
+[Python]: https://img.shields.io/badge/Python-22272e?style=for-the-badge&logo=python&logoColor=white  
+[Tailwind]: https://img.shields.io/badge/Tailwindcss-22272e?style=for-the-badge&logo=tailwindcss&logoColor=white
