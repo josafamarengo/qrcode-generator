@@ -172,7 +172,6 @@ Distributed under the GNU General Public License v3.0. See `LICENSE` for more in
 ## 📧 Contact
 
 [![Linkedin][linkedin-shield]][linkedin-url]
-[![Email][email-shield]][email-url]
 [![Portfolio][site-shield]][site-url]
 
 <a name="acknowledgments"></a>
@@ -206,9 +205,6 @@ Distributed under the GNU General Public License v3.0. See `LICENSE` for more in
 <!-- SOCIAL LINKS -->
 [linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white
 [linkedin-url]: https://linkedin.com/in/josafamarengo
-
-[email-shield]: https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white
-[email-url]: https://josafa.com.br/#contact
 
 [site-shield]: https://img.shields.io/badge/website-000000?style=flat&logo=Google-chrome&logoColor=white
 [site-url]: https://josafa.com.br
